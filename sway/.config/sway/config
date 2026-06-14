@@ -46,6 +46,8 @@ output DP-2 mode 2560x1440@180.001Hz
 #
 # Moving around:
 #
+    bindsym $mod+Tab exec ~/.config/sway/scripts/scratchpad-menu.sh
+
     # Move your focus around
     bindsym $mod+$left focus left
     bindsym $mod+$down focus down
